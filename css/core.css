@@ -1,0 +1,52 @@
+/* This section will add styling to the header portion of the html document */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+/* This turns the font blue for the title of the site */
+header h3 {
+    color: blue;
+    font-size: 2em;
+}
+
+/* Here we are adding some spacing to the nav links */
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+header nav a {
+    padding: 3em;
+}
+
+/* The main site content styles */
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5em;
+    border: 3px groove purple;
+}
+
+/* Making sure to only style the div section with the class of content we use .content here */
+.content {
+    font-size: .5em;
+    border: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: seagreen;
+}
+
